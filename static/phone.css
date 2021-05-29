@@ -1,0 +1,144 @@
+#pic{
+    width: 128px;
+    height: 128px;
+}
+
+#bio {
+    top: 160px;
+    left: 157px;
+ /* line-height: 16px; */
+    font-size: 10px;
+
+}
+
+#contact {
+    font-size: 9px;
+    top: 118%;
+    left: 0px;
+    width: 71px;
+    height: 20px;
+}
+#knowmo {
+    font-size: 9px;
+    top: 148%;
+    left: 26px;
+    width: 71px;
+    height: 20px;
+    display: none;
+
+}
+
+#follow {
+    top: 292px;
+    left: 35px;
+    font-size: 14px;
+}
+
+#follow i{
+    margin-inline: 8px;
+}
+
+#abtpara {
+    top: 373px;
+    line-height: 20px;
+    font-size: 15px;
+    
+}
+
+#cv {
+    top: 120%;
+    width: 108px;
+    height: 27px;
+    font-size: 9px;
+    left: 3px;
+}
+
+#proj2head{
+    font-size: 36px;
+}
+
+#projhr{
+    top: 55px;
+    width: 54px;
+    height: 0.5px;
+}
+
+#projhr22{
+    top: 55px;
+    width: 23px;
+    height: 0.5px;
+    left: 63px;
+}
+
+.viewproj {
+    position: relative;
+    top: 133px;
+    left: 70%;
+}
+#viewproj3 {
+    top: 120px;
+}
+
+
+
+#mysk{
+    font-size: 26px;
+}
+
+#skillhr {
+    top: 42px;
+    width: 110px;
+}
+
+#skillleftbox {
+    top: 103px;
+    font-weight: 300;
+        top: 149px;
+        width: 98%;
+        left: 6px;
+}
+
+.skillbox{
+    left: -8vw;
+}
+
+#infobox {
+    left: 5px;
+    width: 86%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#form-send-btn{
+    left: 59%;
+    width: 89px;
+    height: 24px;
+}

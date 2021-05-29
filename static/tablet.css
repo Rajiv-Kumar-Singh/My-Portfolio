@@ -1,0 +1,353 @@
+#seccont{
+    top: 1381px!important;
+}
+
+#homecont{
+    height: 1394px!important;
+}
+
+#seccont{
+    height: 1467px!important;
+}
+#box{
+    margin-top: 575px!important;
+}
+
+#head{
+    font-size: 109px!important;
+}
+
+#rajeev{
+    font-size: 26px!important;
+}
+
+#btn1{
+    margin-top: 45px!important;
+    font-size: 28px!important;
+    width: 149px!important;
+    height: 48px!important;
+    margin-top: 128px!important;
+    border-radius: 25px!important;
+}
+
+#abthead{
+    font-size: 68px!important;
+}
+#abthr{
+    top: 93px!important;
+}
+
+#pic {
+    /* position: absolute; */
+    top: 155px!important;
+    left: 23px!important;
+    /* border-radius: 50%; */
+    width: 288px!important;
+    height: 288px!important;
+    /* border: 0.01px solid cyan; */
+}
+
+#abtpara {
+    /* position: absolute; */
+    top: 633px!important;
+    left: 21px!important;
+    width: 95%!important;
+    font-size: 31px!important;
+    /* border: 2px solid red; */
+    color: white;
+    font-weight: 300!important;
+}
+
+#follow {
+    /* position: absolute; */
+    top: 489px!important;
+    left: 33px!important;
+    font-size: 31px!important;
+    /* color: white; */
+}
+
+#follow i {
+    margin-inline: 28px!important;
+}
+
+#bio {
+    /* position: absolute; */
+    top: 185px!important;
+    left: 329px!important;
+    /* border: 2px solid red; */
+    /* color: white; */
+    font-size: 33px!important;
+    /* font-family: 'Righteous', cursive; */
+    letter-spacing: 3px!important;
+}
+
+#contact{
+    top: 190px!important;
+}
+
+#knowmo{
+    top:190px!important ;
+}
+
+#thirdcont {
+    /* position: absolute; */
+    top: 2847px!important;
+    /* width: 100vw; */
+    height: 1157px!important;
+    /* background: linear-gradient(to right, #030303,#1f2020); */
+    /* overflow: hidden; */
+    /* border: 2px solid cyan; */
+}
+
+#proj2head {
+    /* position: absolute; */
+    top: -68px!important;
+    left: 4px;
+    font-size: 72px!important;
+    /* font-family: 'Sacramento', cursive; */
+    /* z-index: 2; */
+    /* color: cyan; */
+}
+
+#projhr {
+  
+    top: 23px!important;
+    width: 95px!important;
+   
+}
+#projhr22 {
+    top: 23px!important;
+    left: 123px!important;
+    
+}
+
+.projbox{
+    width: 693px!important;
+    height: 308px!important;
+}
+
+.paraproj{
+    font-size: 17px!important;
+}
+.viewproj {
+    top: 212px!important;
+    left: 75%!important;
+    font-size: 17px!important;
+}
+
+#viewproj3 {
+    top: 190px!important;
+    font-size: 17px!important;
+}
+
+
+#fourthcont{
+    top: 4004px!important;
+}
+
+#mysk{
+    font-size: 72px!important;
+}
+
+.skillbox {
+    /* position: relative; */
+    top: 525px!important;
+    width: 91%!important;
+    left: 7vw!important;
+    /* border: 2px solid yellow; */
+}
+.skillbox p {
+  
+    font-size: 37px;
+}
+
+#skillleftbox {
+    /* top: 227px;
+    left: 102px; */
+    width: 70%!important;
+    font-size: 21px!important;
+    line-height: 30px!important;
+
+}
+
+#skillhr {
+    top: 96px!important;
+    width: 212px!important;
+    height: 0.8px!important;
+}
+
+#fifthcont{
+    top: 5132px!important;
+}
+
+
+#maincontactbox {
+    position: absolute;
+    max-width: 77vw!important;
+    top: 25px!important;
+    height: 839px!important;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    left: 23px;
+    justify-content:unset!important;
+    /* align-items: center; */
+}
+/* .contactform {
+    width: 80%!important; 
+} */
+
+/* #maincontactbox{
+    flex-direction: column!important;
+} */
+
+#contacthead{
+    font-size: 78px!important;
+}
+
+
+.contactform {
+    /* position: absolute; */
+    /* top: 191px!important;
+    left: 30px; */
+    /* font-size: 34px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* border: 2px solid blue; */
+    width: 689px!important;
+}
+
+form input {
+    font-size: 27px!important;
+}
+
+#contactinfo{
+    font-size: 78px!important;
+}
+
+#infobox i {
+    /* color: rgb(194, 184, 184); */
+    font-size: 56px!important;
+    /* margin-bottom: 55px; */
+}
+.infohead{
+ font-size: 23px!important;
+ margin-left: 33px!important;
+}
+.infoss{
+    font-size: 24px!important;
+}
+
+#infopara1{
+    top: 11px!important;
+    width: 534px!important;
+}
+#infopara2{
+    top: 144px!important;
+    width: 534px!important;
+}
+#infopara3{
+    top: 228px!important;
+    width: 534px!important;
+}
+#infopara4{
+    top: 343px!important;
+    left: 64px!important;
+    font-size: 25px!important;
+    width: 534px!important;
+}
+
+/* #contactbox2{
+    top: 56px!important;
+} */
+
+
+
+
+
+
+
+
+
+
+#bio {
+    /* position: absolute; */
+    top: 157px;
+    left: 200px;
+    /* border: 2px solid red; */
+    /* color: white; */
+    font-size: 19px;
+    /* font-family: 'Righteous', cursive; */
+    /* letter-spacing: 1px; */
+}
+
+#contact {
+    top: 116%;
+    left: 11px;
+    width: 110px;
+    height: 30px;
+}
+#knowmo {
+    top: 116%;
+    left: 83px;
+    width: 110px;
+    height: 31px;
+}
+
+#abtpara{
+    top: 419px;
+    left: 9px;
+    font-size: 15px;
+}
+
+#skillleftbox {
+    /* position: absolute; */
+    top: 149px;
+    left: 55px;
+    width: 78%;
+    line-height: 27px;
+    /* color: white; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+@media screen and (max-width: 482px){
+    #skillleftbox {
+      top: 149px;
+      width: 100%;
+      left: 2vw;
+    }
+  }
+/* .skillbox {
+
+    top: 415px;
+    width: 74%;
+    left: 1vw;
+   
+} */
+
+
+#fourthcont{
+    height: 907px;
+}
+
+#fifthcont {
+    top: 3421px;
+}
+
+#mysk{
+    font-size: 38px;
+}
+
+#skillhr{
+    top: 55px;
+    width: 153px;
+}
+
+#abtpara span{
+    font-weight: 300;
+}
+
+#cv {
+    width: 113px;
+    height: 31px;
+    font-size: 10px;
+}

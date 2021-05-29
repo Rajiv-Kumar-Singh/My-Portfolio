@@ -1,0 +1,284 @@
+extends base.pug
+
+block scripts
+    script(src='../static/my.js')
+  
+block style
+    style
+        include ../static/style.css
+        
+block content
+    #scrollbar
+    #progressbar
+    #homecont
+        #box
+            // <span id="hello">Hello World,</span>
+            #head WEB DEVELOPER
+            #rajeev Rajeev Kr. Singh
+            button#btn1(onclick='Toggle()') Activate
+        .video1
+            video(src='../static/files/video.mp4' autoplay='' muted='' loop='')
+        #logoh
+            i#logo.fab.fa-500px
+            span#portf DevFolio
+        // Navigation Bar In The Side Having Vertical Line
+        //
+            <div id="cont1">
+            <div id="vl1" class="vls">
+            <span id="abt">About</span>
+            <span id="me">Me</span>
+            </div>
+            </div>
+            <div id="cont2">
+            <div id="vl2" class="vls">
+            <span id="my">My</span>
+            <span id="proj">Projects</span>
+            </div>
+            </div>
+            <div id="cont3">
+            <div id="vl3" class="vls"></div>
+            <span id="work">Work &</span>
+            <span id="skill">Skills</span>
+            </div>
+        // <div id="boxportfolio">Portfolio</div>
+    #seccont.seccont2
+        #abthead About me
+        hr#abthr
+        img#pic(data-aos='zoom-in' src='../static/files/pic2.jpg' alt='')
+        #follow(data-aos='fade-down')
+            i.fab.fa-facebook
+            i.fab.fa-linkedin-in
+            i.fab.fa-twitter
+        #bio
+            | Rajeev Kumar Singh
+            br
+            |       Web Developer
+            br
+            span#e E
+                | lectronics and 
+            span#i I
+                | nstrumentation 
+            span#eng E
+                | ngineering
+            #biobtn
+                button#contact(data-aos='zoom-in') Contact me
+                button#knowmo(data-aos='zoom-in') Know more
+        #abtpara
+            span.abtparas
+                | I enjoy building Websites and always strive to write elegant and efficient
+                | code,whether it
+                | be
+            span.highlight HTML
+                | , 
+            span.highlight CSS
+                |  or 
+            span.highlight JAVASCRIPT
+                | .
+                br
+                br
+                br
+            span.abtparas
+                | For server side development my weapons of choice are 
+            span.highlight NodeJS
+                | , 
+            span.highlight Express
+                |  and
+            span.highlight MongoDB
+                | .
+                br
+                br
+                br
+            span.abtparas
+                | When i am not coding or pushing pixels, you&apos;ll find me pushing rank in 
+                span.highlight
+                    | Online
+                    | Games
+                | .
+                br
+                br
+                br
+            span.abtparas
+                | Currently an Electronics and Instrumentation Student at 
+                span.highlight
+                    | NIT
+                    | Agartala
+                | .
+            button#cv(data-aos='slide-up') Download CV
+        //
+            <div class="video2">
+            <video src="video.mp4" autoplay muted loop></video>
+            </div>
+    #thirdcont.thirdcont3
+        #leftcont
+            #mainprojhead
+                // <span id="checkproj">Check Out!</span><br>
+                span#proj2head My Projects
+                hr#projhr
+                hr#projhr22
+        //
+            <div id="topicproj">
+            <div id="webdev" class="topicp"><span class="bcolor">Web Development</span> </div>
+            <div id="ML" class="topicp"><span class="bcolor">Machine Learning</span> </div>
+            <div id="AI" class="topicp"><span class="bcolor"> Artificial Intelligence</span></div>
+            </div>
+        #projboxes
+            #projbox1.projbox.pp1(data-aos='fade-up' data-aos-offset='100')
+                .projhead Web Page Design 1
+                .hrline
+                .paraproj Created an highly responsive portfolio web page from scratch
+                button.viewproj(onclick='showdetails1()')
+                    | view details&nbsp;&nbsp;
+                    i.fas.fa-arrow-right
+            // <div class="card-back">Portfolio Web Page</div>
+            // <img src="map.JPG" alt="">
+            // <div class="strip"></div>
+            #detailscard1
+                | hi 1
+                button#closedetails1(onclick='closeit1()') X
+            #projbox2.projbox(data-aos='fade-up' data-aos-anchor='.pp1')
+                .projhead Web Page Design 2
+                .hrline
+                .paraproj Created an highly responsive portfolio web page from scratch
+                button.viewproj(onclick='showdetails2()')
+                    | view details&nbsp;&nbsp;
+                    i.fas.fa-arrow-right
+            // <img src="portfolio-2.JPG" alt="">
+            // <div class="strip"></div>
+            #detailscard2
+                button#closedetails2(onclick='closeit2()') X
+            #projbox3.projbox(data-aos='fade-up' data-aos-anchor='.pp1')
+                .projhead Corona Cases
+                .hrline
+                .paraproj
+                    | Plotted corona cases on world map using mapbox and JavaScript with the help of json file
+                button#viewproj3.viewproj(onclick='showdetails3()')
+                    | view details&nbsp;&nbsp;
+                    i.fas.fa-arrow-right
+            // <img src="portfolio-3.JPG" alt="">
+            // <div class="strip"></div>
+            #detailscard3
+                | hi 3
+                button#closedetails3(onclick='closeit3()') X
+            #projbox4.projbox(data-aos='fade-up' data-aos-anchor='.pp1')
+                .projhead Coming Soon...
+                .hrline
+                .paraproj Under Construction&lt;/&gt;
+                button#viewproj4.viewproj(onclick='showdetails4()')
+                    | view details&nbsp;&nbsp;
+                    i.fas.fa-arrow-right
+            #detailscard4
+                | hi 4
+                button#closedetails4(onclick='closeit4()') X
+    #fourthcont.fourthcont4
+        #mysk  Work &amp; Skills
+        hr#skillhr
+        #mainskillbox
+            #skillleftbox(data-aos='fade-up')
+                | Building Highly Responsive Websites having custom plugins, various features,animations and coding interactive
+                | layouts with HTML(PUG), CSS and
+                | JavaScript. 
+                br
+                br
+                | Worked as an HTML Designer intern at ClearExam institute for a period of 8 weeks.
+            .skillbox
+                p.sk HTML, PUG
+                .container(data-aos='fade-right')
+                    #htBar.htmlbar.bars 90%
+                    .progress-line1.html
+                        span
+                //
+                    <p class="sk">Pug</p>
+                    <div class="container">
+                    <div class="pugbar bars">90%</div>
+                    </div>
+                p.sk CSS
+                .container(data-aos='fade-right')
+                    #csBar.cssbar.bars 80%
+                    .progress-line2.css
+                        span
+                p.sk JavaScript
+                    .container(data-aos='fade-right')
+                        #jsBar.jsbar.bars 65%
+                        .progress-line3.js
+                            span
+                p.sk Node.js
+                    .container(data-aos='fade-right')
+                        #nodeBar.nodejsbar.bars 60%
+                        .progress-line4.nodejs
+                            span
+                p.sk Express.js
+                    .container(data-aos='fade-right')
+                        #expressBar.expressbar.bars 60%
+                        .progress-line5.express
+                            span
+                p.sk MongoDB
+                    .container(data-aos='fade-right')
+                        #mongodbBar.mongodbbar.bars 70%
+                        .progress-line6.mongodb
+                            span
+        //
+            <p class="sk">Python</p>
+            <div class="container">
+            <div class="pybar bars">70%</div>
+            </div>
+        //
+            <p class="sk">PHP</p>
+            <div class="container">
+            <div class="phpbar bars">60%</div>
+            </div>
+        //
+            <div class="skillbox">
+            <p class="sk">My SQL</p>
+            <div class="container">
+            <div class="sqlbar bars">60%</div>
+            </div>
+            </div>
+    #fifthcont.fifthcont5
+        #maincontactbox
+            #contactbox1.contactbox(data-aos='fade-down')
+                #contacthead Contact me
+                form.contactform(action='/' method='post')
+                    input(type='text' placeholder='NAME' name='name')
+                    input(type='number' placeholder='CONTACT NO.' name='contact')
+                    input(type='email' placeholder='EMAIL' name='email')
+                    textarea#message(name='message' placeholder='Message' cols='10' rows='5')
+                    // <button id="form-cancel-btn">CANCEL</button>
+                    button#form-send-btn SEND
+            #contactbox2.contactbox(data-aos='fade-down')
+                #contactinfo
+                    | More &nbsp;Info
+                #infobox
+                    #infoicon1
+                        i.fas.fa-map-marker-alt
+                        #infopara1
+                            span.infohead Address:
+                            span.infoss
+                                | Shahpur, Gkp, Uttar
+                                | Pradesh 273014
+                    #infoicon2
+                        i.fas.fa-phone-alt
+                        #infopara2
+                            span.infohead Phone:
+                            span.infoss (+91) 12345678911
+                    #infoicon3
+                        i.far.fa-envelope
+                        #infopara3
+                            span.infohead Email:
+                            span.infoss rv488448@gmail.com
+                    #infoicon4
+                        i.fas.fa-check-square
+                        #infopara4
+                            span#freelance Freelancer
+        footer#foot
+            #madewith
+                | Made with&nbsp;
+                i.fas.fa-heart
+                | &nbsp;by Rajeev
+    script(src='https://unpkg.com/aos@next/dist/aos.js')
+    script.
+      AOS.init({
+      duration: 1500
+      });
+
+    script
+        include ../static/my.js
