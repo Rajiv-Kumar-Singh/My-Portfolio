@@ -37,6 +37,10 @@
     top: 93px!important;
 }
 
+#abtpara span{
+    font-weight: 300!important;
+}
+
 #pic {
     /* position: absolute; */
     top: 155px!important;
@@ -177,6 +181,54 @@
     height: 0.8px!important;
 }
 
+#htBar{
+    animation:unset!important;
+    width: 90%!important;
+    background-color: cyan!important;
+}
+
+.progress-line1 span::before {
+
+    left: 89.2%!important;
+
+}
+.progress-line1 span::after {
+
+    left: 83.8%!important;
+
+}
+
+
+#csBar{
+    animation:unset!important;
+    width: 80%!important;
+    background-color: cyan!important;
+}
+
+#jsBar{
+    animation:unset!important;
+    width: 65%!important;
+    background-color: cyan!important;
+}
+
+#nodeBar{
+    animation:unset!important;
+    width: 60%!important;
+    background-color: cyan!important;
+}
+
+#expressBar{
+    animation:unset!important;
+    width: 60%!important;
+    background-color: cyan!important;
+}
+
+#mongodbBar{
+    animation:unset!important;
+    width: 70%!important;
+    background-color: cyan!important;
+}
+
 #fifthcont{
     top: 5132px!important;
 }
@@ -240,6 +292,7 @@ textarea{
 }
 .infoss{
     font-size: 24px!important;
+    margin-left: 12px!important;
 }
 
 #infopara1{
@@ -271,87 +324,3 @@ textarea{
 
 
 
-
-
-
-#bio {
-    /* position: absolute; */
-    top: 157px;
-    left: 200px;
-    /* border: 2px solid red; */
-    /* color: white; */
-    font-size: 19px;
-    /* font-family: 'Righteous', cursive; */
-    /* letter-spacing: 1px; */
-}
-
-#contact {
-    top: 116%;
-    left: 11px;
-    width: 110px;
-    height: 30px;
-}
-#knowmo {
-    top: 116%;
-    left: 83px;
-    width: 110px;
-    height: 31px;
-}
-
-#abtpara{
-    top: 419px;
-    left: 9px;
-    font-size: 15px;
-}
-
-#skillleftbox {
-    /* position: absolute; */
-    top: 149px;
-    left: 55px;
-    width: 78%;
-    line-height: 27px;
-    /* color: white; */
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-}
-@media screen and (max-width: 482px){
-    #skillleftbox {
-      top: 149px;
-      width: 100%;
-      left: 2vw;
-    }
-  }
-/* .skillbox {
-
-    top: 415px;
-    width: 74%;
-    left: 1vw;
-   
-} */
-
-
-#fourthcont{
-    height: 907px;
-}
-
-#fifthcont {
-    top: 3421px;
-}
-
-#mysk{
-    font-size: 38px;
-}
-
-#skillhr{
-    top: 55px;
-    width: 153px;
-}
-
-#abtpara span{
-    font-weight: 300;
-}
-
-#cv {
-    width: 113px;
-    height: 31px;
-    font-size: 10px;
-}
