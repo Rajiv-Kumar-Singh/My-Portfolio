@@ -143,6 +143,7 @@
 
 #fourthcont{
     top: 4004px!important;
+    height: 1101px!important;
 }
 
 #mysk{
@@ -220,7 +221,10 @@
 form input {
     font-size: 27px!important;
 }
-
+textarea{
+    font-size: 27px!important;
+    border-bottom: 2px solid #7a7171!important;
+}
 #contactinfo{
     font-size: 78px!important;
 }
@@ -243,15 +247,15 @@ form input {
     width: 534px!important;
 }
 #infopara2{
-    top: 144px!important;
+    top: 115px!important;
     width: 534px!important;
 }
 #infopara3{
-    top: 228px!important;
+    top: 229px!important;
     width: 534px!important;
 }
 #infopara4{
-    top: 343px!important;
+    top: 345px!important;
     left: 64px!important;
     font-size: 25px!important;
     width: 534px!important;
