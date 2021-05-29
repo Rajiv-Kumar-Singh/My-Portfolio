@@ -15,7 +15,7 @@ const mongodb = require("mongodb");
 // app.use(express.json({extended:false}));
 // module.exports = connectDB;
 
-// mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/data', {useNewUrlParser: true, useUnifiedTopology: true}); 
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/data10', {useNewUrlParser: true, useUnifiedTopology: true}); 
 
 // mongoose.connect('mongodb+srv://Rajiv_07:<password>@portfolio.gng9i.mongodb.net/test', {useNewUrlParser: true});
 
@@ -24,16 +24,16 @@ const mongodb = require("mongodb");
 // });
 
 
-//Define mongoose Schema
-// var contactSchema = new mongoose.Schema({
-// name: String,
-// contact: String,
-// email: String,
-// message: String
-// });
+// Define mongoose Schema
+var contactSchema = new mongoose.Schema({
+name: String,
+contact: String,
+email: String,
+message: String
+});
 
 
-// var Contact = mongoose.model('Contact', contactSchema);
+var Contact = mongoose.model('Contact', contactSchema);
 
 // module.exports = Contact = mongoose.model('Contact', contactSchema);
 
