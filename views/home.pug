@@ -61,8 +61,10 @@ block content
             span#eng E
                 | ngineering
             #biobtn
-                button#contact(data-aos='zoom-in') Contact me
-                button#knowmo(data-aos='zoom-in') Know more
+                a(href='#contacthead')
+                    button#contact(data-aos='zoom-in') Contact me
+                a(href='#mysk')
+                    button#knowmo(data-aos='zoom-in') Know more
         #abtpara
             span.abtparas
                 | I enjoy building Websites and always strive to write elegant and efficient
@@ -241,7 +243,7 @@ block content
                     input(type='text' placeholder='NAME' name='name')
                     input(type='number' placeholder='CONTACT NO.' name='contact')
                     input(type='email' placeholder='EMAIL' name='email')
-                    textarea#message(name='message' placeholder='Message' cols='10' rows='5')
+                    textarea#message(name='message' placeholder='Concern' cols='10' rows='5')
                     // <button id="form-cancel-btn">CANCEL</button>
                     button#form-send-btn SEND
             #contactbox2.contactbox(data-aos='fade-down')
@@ -253,7 +255,7 @@ block content
                         #infopara1
                             span.infohead Address:
                             span.infoss
-                                | Shahpur, Gkp, Uttar
+                                | Shahpur, Gorakhpur, Uttar
                                 | Pradesh 273014
                     #infoicon2
                         i.fas.fa-phone-alt

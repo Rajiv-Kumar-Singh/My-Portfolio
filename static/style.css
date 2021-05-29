@@ -15,6 +15,9 @@
     box-sizing: border-box;
   }
 
+  html {
+    scroll-behavior:smooth;
+  }
   #testbox{
     position: absolute;
     top: 0px;
