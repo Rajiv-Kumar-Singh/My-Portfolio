@@ -4,7 +4,12 @@
   "description": "Rajeev Portfolio",
   "main": "app.js",
   "scripts": {
-    "test": "Rajeev"
+    "test": "Rajeev",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
   },
   "keywords": [
     "awesome"
