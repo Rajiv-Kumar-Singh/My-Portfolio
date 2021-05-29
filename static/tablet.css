@@ -197,6 +197,56 @@
     left: 83.8%!important;
 
 }
+.progress-line2 span::before {
+
+    left: 79%!important;
+
+}
+.progress-line2 span::after {
+
+    left: 73.8%!important;
+
+}
+.progress-line3 span::before {
+
+    left: 64%!important;
+
+}
+.progress-line3 span::after {
+
+    left: 58.8%!important;
+
+}
+.progress-line4 span::before {
+
+    left: 59%!important;
+
+}
+.progress-line4 span::after {
+
+    left: 53.8%!important;
+
+}
+.progress-line5 span::before {
+
+    left: 59%!important;
+
+}
+.progress-line5 span::after {
+
+    left: 53.8%!important;
+
+}
+.progress-line6 span::before {
+
+    left: 69%!important;
+
+}
+.progress-line6 span::after {
+
+    left: 63.8%!important;
+
+}
 
 
 #csBar{
@@ -268,6 +318,7 @@
     /* flex-direction: column; */
     /* border: 2px solid blue; */
     width: 689px!important;
+    top: 204px!important;
 }
 
 form input {
@@ -279,11 +330,18 @@ textarea{
 }
 #contactinfo{
     font-size: 78px!important;
+    top: 90px!important;
+
+}
+
+#infobox{
+    top: 145px!important;
 }
 
 #infobox i {
     /* color: rgb(194, 184, 184); */
     font-size: 56px!important;
+    top: 153px!important;
     /* margin-bottom: 55px; */
 }
 .infohead{
@@ -314,6 +372,13 @@ textarea{
     width: 534px!important;
 }
 
+#foot{
+    height: 140px!important;
+}
+
+#madewith{
+    font-size:36px!important ;
+}
 /* #contactbox2{
     top: 56px!important;
 } */
