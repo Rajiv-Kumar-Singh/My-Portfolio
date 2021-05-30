@@ -24,6 +24,18 @@
   
         }
       }
+
+
+    
+      var counter = 1;
+      setInterval(function () {
+          document.getElementById('radio' + counter).checked = true;
+          counter++;
+          if (counter > 3) {
+            counter = 1;
+          }
+      }, 4000);
+      
   
     
         // Animation on vertical nav bar liness   
@@ -198,6 +210,10 @@
         showing4.style.display = 'none'
   
       }
+
+
+    // (type='text/javascript')
+    
 
 
 

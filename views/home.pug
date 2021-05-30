@@ -46,9 +46,9 @@ block content
         hr#abthr
         img#pic(data-aos='zoom-in' src='../static/files/pic2.jpg' alt='')
         #follow(data-aos='fade-down')
-            i.fab.fa-facebook
             a(href='https://www.linkedin.com/in/rajiv-singh-04296418b/' target="_blank")
                 i.fab.fa-linkedin-in
+            i.fab.fa-facebook
             i.fab.fa-twitter
         #bio
             | Rajeev Kumar Singh
@@ -173,14 +173,55 @@ block content
     #detailscard1
         span 
             #dehead1 Responsive Portolio Landing Page 
+                        // image slider start
+        .slider
+            .slides
+                // radio buttons start
+                input#radio1(type='radio' name='radio-btn')
+                input#radio2(type='radio' name='radio-btn')
+                input#radio3(type='radio' name='radio-btn')
+                //- input#radio4(type='radio' name='radio-btn')
+                // radio buttons end
+                // slide images start
+                .slide.first
+                    img#p1(src='../static/files/portfolio-1.JPG' alt='')
+                .slide
+                    img#p2(src='../static/files/mobile view.JPG' alt='')
+                .slide
+                    img#p3(src='../static/files/in3.JPG' alt='')
+                //
+                    <div class="slide">
+                    <img src="mobile view.JPG" alt="">
+                    </div>
+                // slide images end
+                // automatic navigation start
+                .navigation-auto
+                    .auto-btn1
+                    .auto-btn2
+                    .auto-btn3
+                // <div class="auto-btn4"></div>
+                // automatic navigation end
+            // manual navigation start
+            .navigation-manual
+                label.manual-btn(for='radio1')
+                label.manual-btn(for='radio2')
+                label.manual-btn(for='radio3')
+                // <label for="radio4" class="manual-btn"></label>
+            // manual navigation end
+        //- form(action='#')
+        // image slider end
+        
+            //- h1#upload1 Uploading Details Soon!
         button#closedetails1(onclick='closeit1()') X
     #detailscard2
         span 
             #dehead2 Responsive Portolio Landing Page 
+            h1#upload2 Uploading Details Soon!
         button#closedetails2(onclick='closeit2()') X
     #detailscard3
         span 
             #dehead3 Corona Cases
+            h1#upload3 Uploading Details Soon!
         button#closedetails3(onclick='closeit3()') X
     #detailscard4
         span 

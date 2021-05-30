@@ -1083,13 +1083,30 @@ animation: anidet 1s ease-in-out linear 1;
 
 }
 
-/* .card-back{
+#upload1{
+  position: absolute;
+  top: 300px;
+  left: 453px;
   color: white;
-  backface-visibility: hidden;
-  
-
-} */
-
+}
+#upload2{
+  position: absolute;
+  top: 300px;
+  left: 453px;
+  color: white;
+}
+#upload3{
+  position: absolute;
+  top: 300px;
+  left: 453px;
+  color: white;
+}
+#upload4{
+  position: absolute;
+  top: 300px;
+  left: 453px;
+  color: white;
+}
 
 #viewproj3{
   position: relative;
@@ -1108,6 +1125,8 @@ animation: anidet 1s ease-in-out linear 1;
   left: 55px;
   color: white;
   font-size: 34px;
+  font-family: 'Righteous', cursive;
+  
 }
 #dehead2{
   position: absolute;
@@ -1115,6 +1134,7 @@ animation: anidet 1s ease-in-out linear 1;
   left: 55px;
   color: white;
   font-size: 34px;
+  font-family: 'Righteous', cursive;
 }
 #dehead3{
   position: absolute;
@@ -1122,6 +1142,7 @@ animation: anidet 1s ease-in-out linear 1;
   left: 55px;
   color: white;
   font-size: 34px;
+  font-family: 'Righteous', cursive;
 }
 #dehead4{
   position: absolute;
@@ -1129,6 +1150,7 @@ animation: anidet 1s ease-in-out linear 1;
   left: 55px;
   color: white;
   font-size: 34px;
+  font-family: 'Righteous', cursive;
 }
 /* .strip {
   position: relative;
@@ -2067,3 +2089,129 @@ textarea{
     color: cyan;
   }
 }
+
+
+
+
+.slider {
+  margin: 90px auto;
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  /* border: 2px solid red; */
+}
+
+.slides{
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 20%;
+  transition: 1s;
+}
+
+.slide img{
+  width: 800px;
+  height: 500px;
+}
+
+#p1{
+    object-fit: contain;
+}
+#p2{
+    object-fit: contain;
+}
+#p3{
+    object-fit: contain;
+}
+
+
+
+
+
+/*css for manual slide navigation*/
+
+.navigation-manual{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: #40D3DC;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+
+/* #radio4:checked ~ .first{
+  margin-left: -60%;
+} */
+
+/*css for automatic navigation*/
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div{
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: #40D3DC;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: #40D3DC;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: #40D3DC;
+}
+
+/* #radio4:checked ~ .navigation-auto .auto-btn4{
+  background: #40D3DC;
+} */
+      
