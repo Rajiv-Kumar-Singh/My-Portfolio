@@ -607,6 +607,9 @@ background: linear-gradient(to right, #030303,#1f2020); /* W3C, IE 10+/ Edge, Fi
   margin-right:40px ;
   cursor: pointer;
 }
+#follow a{
+  color: white;
+}
 
 #follow i:hover{
   color: cyan;
@@ -1050,7 +1053,6 @@ animation: anidet 1s ease-in-out 1;
   z-index: 5;
   display: none;
 
-
 background: rgba( 11, 11, 11, 0.25 );
 box-shadow: 0 8px 32px 0 rgba(25, 85, 85, 0.37);
 backdrop-filter: blur( 4px );
@@ -1096,6 +1098,38 @@ animation: anidet 1s ease-in-out linear 1;
   font-size: 11.5px;
 
 } 
+
+
+
+
+#dehead1{
+  position: absolute;
+  top:23px;
+  left: 55px;
+  color: white;
+  font-size: 34px;
+}
+#dehead2{
+  position: absolute;
+  top:23px;
+  left: 55px;
+  color: white;
+  font-size: 34px;
+}
+#dehead3{
+  position: absolute;
+  top:23px;
+  left: 55px;
+  color: white;
+  font-size: 34px;
+}
+#dehead4{
+  position: absolute;
+  top:23px;
+  left: 55px;
+  color: white;
+  font-size: 34px;
+}
 /* .strip {
   position: relative;
   top: -59px;
