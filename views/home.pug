@@ -113,6 +113,7 @@ block content
             <div class="video2">
             <video src="video.mp4" autoplay muted loop></video>
             </div>
+    
     #thirdcont.thirdcont3
         #leftcont
             #mainprojhead
@@ -137,9 +138,7 @@ block content
             // <div class="card-back">Portfolio Web Page</div>
             // <img src="map.JPG" alt="">
             // <div class="strip"></div>
-            #detailscard1
-                | hi 1
-                button#closedetails1(onclick='closeit1()') X
+            
             #projbox2.projbox(data-aos='fade-up' data-aos-anchor='.pp1')
                 .projhead Web Page Design 2
                 .hrline
@@ -149,8 +148,7 @@ block content
                     i.fas.fa-arrow-right
             // <img src="portfolio-2.JPG" alt="">
             // <div class="strip"></div>
-            #detailscard2
-                button#closedetails2(onclick='closeit2()') X
+            
             #projbox3.projbox(data-aos='fade-up' data-aos-anchor='.pp1')
                 .projhead Corona Cases
                 .hrline
@@ -161,9 +159,7 @@ block content
                     i.fas.fa-arrow-right
             // <img src="portfolio-3.JPG" alt="">
             // <div class="strip"></div>
-            #detailscard3
-                | hi 3
-                button#closedetails3(onclick='closeit3()') X
+           
             #projbox4.projbox(data-aos='fade-up' data-aos-anchor='.pp1')
                 .projhead Coming Soon...
                 .hrline
@@ -171,9 +167,19 @@ block content
                 button#viewproj4.viewproj(onclick='showdetails4()')
                     | view details&nbsp;&nbsp;
                     i.fas.fa-arrow-right
-            #detailscard4
-                | hi 4
-                button#closedetails4(onclick='closeit4()') X
+            
+
+    #detailscard1
+        | hi 1
+        button#closedetails1(onclick='closeit1()') X
+    #detailscard2
+        button#closedetails2(onclick='closeit2()') X
+    #detailscard3
+        | hi 3
+        button#closedetails3(onclick='closeit3()') X
+    #detailscard4
+        | hi 4
+        button#closedetails4(onclick='closeit4()') X
     #fourthcont.fourthcont4
         #mysk  Work &amp; Skills
         hr#skillhr
