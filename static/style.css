@@ -1123,9 +1123,10 @@ animation: anidet 1s ease-in-out linear 1;
   position: absolute;
   top:23px;
   left: 55px;
-  color: white;
+  color: cyan;
   font-size: 34px;
   font-family: 'Righteous', cursive;
+
   
 }
 #dehead2{
@@ -2141,7 +2142,7 @@ textarea{
 .navigation-manual{
   position: absolute;
   width: 800px;
-  margin-top: -40px;
+  margin-top: 8px;
   display: flex;
   justify-content: center;
 }
@@ -2185,7 +2186,7 @@ textarea{
   display: flex;
   width: 800px;
   justify-content: center;
-  margin-top: 460px;
+  margin-top: 508px;
 }
 
 .navigation-auto div{
