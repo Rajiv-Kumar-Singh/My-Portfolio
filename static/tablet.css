@@ -64,14 +64,14 @@
 
 #follow {
     /* position: absolute; */
-    top: 489px!important;
-    left: 33px!important;
+    top: 495px!important;
+    left: 81px!important;
     font-size: 31px!important;
     /* color: white; */
 }
 
 #follow i {
-    margin-inline: 28px!important;
+    margin-right: 40px!important;
 }
 
 #bio {
@@ -142,6 +142,19 @@
 #viewproj3 {
     top: 190px!important;
     font-size: 17px!important;
+}
+
+#detailscard1{
+    top: 3071px!important;
+}
+#detailscard2{
+    top: 3071px!important;
+}
+#detailscard3{
+    top: 3187px!important;
+}
+#detailscard4{
+    top: 3378px!important;
 }
 
 
@@ -386,10 +399,3 @@ textarea{
 /* #contactbox2{
     top: 56px!important;
 } */
-
-
-
-
-
-
-

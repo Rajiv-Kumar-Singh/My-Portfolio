@@ -46,8 +46,9 @@ block content
         hr#abthr
         img#pic(data-aos='zoom-in' src='../static/files/pic2.jpg' alt='')
         #follow(data-aos='fade-down')
+            a(href='https://www.linkedin.com/in/rajiv-singh-04296418b/' target="_blank")
+                i.fab.fa-linkedin-in
             i.fab.fa-facebook
-            i.fab.fa-linkedin-in
             i.fab.fa-twitter
         #bio
             | Rajeev Kumar Singh
@@ -70,23 +71,26 @@ block content
                 | I enjoy building Websites and always strive to write elegant and efficient
                 | code,whether it
                 | be
-            span.highlight HTML
+                span.highlight 
+                    | HTML 
                 | , 
-            span.highlight CSS
-                |  or 
-            span.highlight JAVASCRIPT
-                | .
-                br
-                br
-                br
+                span.highlight 
+                    | CSS 
+                | or 
+                span.highlight 
+                    | JAVASCRIPT.
+                    br
+                    br
+                    br
             span.abtparas
                 | For server side development my weapons of choice are 
-            span.highlight NodeJS
-                | , 
-            span.highlight Express
-                |  and
-            span.highlight MongoDB
-                | .
+                span.highlight 
+                    | NodeJS, 
+                span.highlight 
+                    | Express 
+                | and
+                span.highlight 
+                    |MongoDB .
                 br
                 br
                 br
@@ -110,6 +114,7 @@ block content
             <div class="video2">
             <video src="video.mp4" autoplay muted loop></video>
             </div>
+    
     #thirdcont.thirdcont3
         #leftcont
             #mainprojhead
@@ -134,9 +139,7 @@ block content
             // <div class="card-back">Portfolio Web Page</div>
             // <img src="map.JPG" alt="">
             // <div class="strip"></div>
-            #detailscard1
-                | hi 1
-                button#closedetails1(onclick='closeit1()') X
+            
             #projbox2.projbox(data-aos='fade-up' data-aos-anchor='.pp1')
                 .projhead Web Page Design 2
                 .hrline
@@ -146,8 +149,7 @@ block content
                     i.fas.fa-arrow-right
             // <img src="portfolio-2.JPG" alt="">
             // <div class="strip"></div>
-            #detailscard2
-                button#closedetails2(onclick='closeit2()') X
+            
             #projbox3.projbox(data-aos='fade-up' data-aos-anchor='.pp1')
                 .projhead Corona Cases
                 .hrline
@@ -158,19 +160,72 @@ block content
                     i.fas.fa-arrow-right
             // <img src="portfolio-3.JPG" alt="">
             // <div class="strip"></div>
-            #detailscard3
-                | hi 3
-                button#closedetails3(onclick='closeit3()') X
+           
             #projbox4.projbox(data-aos='fade-up' data-aos-anchor='.pp1')
                 .projhead Coming Soon...
                 .hrline
                 .paraproj Under Construction&lt;/&gt;
                 button#viewproj4.viewproj(onclick='showdetails4()')
-                    | view details&nbsp;&nbsp;
-                    i.fas.fa-arrow-right
-            #detailscard4
-                | hi 4
-                button#closedetails4(onclick='closeit4()') X
+                    //- | view details&nbsp;&nbsp;
+                    //- i.fas.fa-arrow-right
+            
+    #detailscard1
+        span 
+            #dehead1 Responsive Portolio Landing Page 
+                        // image slider start
+        .slider
+            .slides
+                // radio buttons start
+                input#radio1(type='radio' name='radio-btn')
+                input#radio2(type='radio' name='radio-btn')
+                input#radio3(type='radio' name='radio-btn')
+                //- input#radio4(type='radio' name='radio-btn')
+                // radio buttons end
+                // slide images start
+                .slide.first
+                    img#p1(src='../static/files/portfolio-1.JPG' alt='')
+                .slide
+                    img#p2(src='../static/files/mobile view.JPG' alt='')
+                .slide
+                    img#p3(src='../static/files/in3.JPG' alt='')
+                //
+                    <div class="slide">
+                    <img src="mobile view.JPG" alt="">
+                    </div>
+                // slide images end
+                // automatic navigation start
+                .navigation-auto
+                    .auto-btn1
+                    .auto-btn2
+                    .auto-btn3
+                // <div class="auto-btn4"></div>
+                // automatic navigation end
+            // manual navigation start
+            .navigation-manual
+                label.manual-btn(for='radio1')
+                label.manual-btn(for='radio2')
+                label.manual-btn(for='radio3')
+                // <label for="radio4" class="manual-btn"></label>
+            // manual navigation end
+        //- form(action='#')
+        // image slider end
+        
+            //- h1#upload1 Uploading Details Soon!
+        button#closedetails1(onclick='closeit1()') X
+    #detailscard2
+        span 
+            #dehead2 Responsive Portolio Landing Page 
+            h1#upload2 Uploading Details Soon!
+        button#closedetails2(onclick='closeit2()') X
+    #detailscard3
+        span 
+            #dehead3 Corona Cases
+            h1#upload3 Uploading Details Soon!
+        button#closedetails3(onclick='closeit3()') X
+    #detailscard4
+        span 
+            #dehead4 Working.....
+        button#closedetails4(onclick='closeit4()') X
     #fourthcont.fourthcont4
         #mysk  Work &amp; Skills
         hr#skillhr
@@ -239,11 +294,11 @@ block content
         #maincontactbox
             #contactbox1.contactbox(data-aos='fade-down')
                 #contacthead Contact me
-                form.contactform(action='/' method='post')
-                    input(type='text' placeholder='NAME' name='name')
-                    input(type='number' placeholder='CONTACT NO.' name='contact')
-                    input(type='email' placeholder='EMAIL' name='email')
-                    textarea#message(name='message' placeholder='Concern' cols='10' rows='5')
+                form.contactform(action='/' method='post' onSubmit="alert('Replying you soon Thanks!');")
+                    input(type='text' placeholder='NAME' name='name' required)
+                    input(type='number' placeholder='CONTACT NO.' name='contact' required)
+                    input(type='email' placeholder='EMAIL' name='email' required)
+                    textarea#message(name='message' placeholder='Concern' cols='10' rows='5' required)
                     // <button id="form-cancel-btn">CANCEL</button>
                     button#form-send-btn SEND
             #contactbox2.contactbox(data-aos='fade-down')
@@ -261,7 +316,7 @@ block content
                         i.fas.fa-phone-alt
                         #infopara2
                             span.infohead Phone:
-                            span.infoss (+91) 12345678911
+                            span.infoss (+91) 9451254078
                     #infoicon3
                         i.far.fa-envelope
                         #infopara3
