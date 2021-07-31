@@ -130,7 +130,7 @@ block content
             </div>
         #projboxes
             #projbox1.projbox.pp1(data-aos='fade-up' data-aos-offset='100')
-                .projhead Web Page Design 1
+                .projhead Web Page Design
                 .hrline
                 .paraproj Created an highly responsive portfolio web page from scratch
                 button.viewproj(onclick='showdetails1()')
@@ -144,9 +144,11 @@ block content
                 .projhead Internet OF Things
                 .hrline
                 .paraproj Sending Sensor Data Via NODEMCU ESP8266 and Arduino To Website
-                button.viewproj(onclick='showdetails2()')
-                    | view details&nbsp;&nbsp;
-                    i.fas.fa-arrow-right
+                a(href='https://arduino-rv.herokuapp.com/' target="_blank")
+                    //- button.viewproj(onclick='showdetails2()')
+                    button.viewproj()
+                        | view details&nbsp;&nbsp;
+                        i.fas.fa-arrow-right
             // <img src="portfolio-2.JPG" alt="">
             // <div class="strip"></div>
             
