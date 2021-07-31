@@ -1979,6 +1979,13 @@ textarea{
   left: 34px;
   color: white;
 }
+#infopara5{
+  position: absolute;
+  top: 311px;
+  left: 37px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 
 .infohead{
@@ -1993,6 +2000,14 @@ textarea{
 }
 
 #freelance{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#ytchannel{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#visitYT{
+  margin-left: 100px;
+  color: rgb(179, 174, 174);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -2015,6 +2030,18 @@ textarea{
   width: 80%;
   /* border: 2px solid red; */
   display: inline-block;
+}
+#infoicon5{
+  width: 80%;
+  border: 2px solid red;
+  display: inline-block;
+}
+#infoicon5 a{
+  /* color: rgb(194, 184, 184); */
+  /* font-size: 23px; */
+  /* margin-bottom: 55px; */
+  position: relative;
+  top: -3px;
 }
 
 
