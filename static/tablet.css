@@ -399,3 +399,12 @@ textarea{
 /* #contactbox2{
     top: 56px!important;
 } */
+
+
+/* form send button */
+#form-send-btn{
+    width: 128px!important;
+    height: 41px!important;
+    font-size: 17px!important;
+    left: 76%!important;
+}
