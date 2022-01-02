@@ -301,10 +301,10 @@ block content
             #contactbox1.contactbox(data-aos='fade-down')
                 #contacthead Contact me
                 form.contactform(action='/' method='post' onSubmit="alert('Replying you soon Thanks!');")
-                    input(type='text' placeholder='NAME' name='name' required)
-                    input(type='number' placeholder='CONTACT NO.' name='contact' required)
-                    input(type='email' placeholder='EMAIL' name='email' required)
-                    textarea#message(name='message' placeholder='Concern' cols='10' rows='5' required)
+                    input(type='text' placeholder='NAME' name='name' autocomplete="off" required)
+                    input(type='number' placeholder='CONTACT NO.' name='contact' autocomplete="off" required)
+                    input(type='email' placeholder='EMAIL' name='email' autocomplete="off" required)
+                    textarea#message(name='message' placeholder='Concern' cols='10' rows='5' autocomplete="off" required)
                     // <button id="form-cancel-btn">CANCEL</button>
                     button#form-send-btn SEND
             #contactbox2.contactbox(data-aos='fade-down')
