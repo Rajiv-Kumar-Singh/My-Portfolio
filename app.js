@@ -35,7 +35,7 @@ var contactSchema = new mongoose.Schema({
 });
 
 
-// var Contact = mongoose.model('Contact', contactSchema);
+var Contact = mongoose.model('Contact', contactSchema);
 
 module.exports = Contact = mongoose.model('Contact', contactSchema);
 
