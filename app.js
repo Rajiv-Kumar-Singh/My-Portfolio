@@ -15,7 +15,7 @@ const mongodb = require("mongodb");
 // app.use(express.json({extended:false}));
 // module.exports = connectDB;
 
-mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/data10', { useNewUrlParser: true, useUnifiedTopology: true });
+// mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/data10', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // mongodb+srv://Rajiv_07:<password>@portfolio.gng9i.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
@@ -35,9 +35,9 @@ var contactSchema = new mongoose.Schema({
 });
 
 
-var Contact = mongoose.model('Contact', contactSchema);
+// var Contact = mongoose.model('Contact', contactSchema);
 
-module.exports = Contact = mongoose.model('Contact', contactSchema);
+// module.exports = Contact = mongoose.model('Contact', contactSchema);
 
 
 

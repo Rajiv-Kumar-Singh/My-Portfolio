@@ -183,18 +183,18 @@
   
   
   
-      function showdetails3() {
-        let showing3 = document.getElementById('detailscard3');
-        // let card1 = document.getElementById("projbox1");
+      // function showdetails3() {
+      //   let showing3 = document.getElementById('detailscard3');
+      //   // let card1 = document.getElementById("projbox1");
   
-        showing3.style.display = 'revert';
-        // card1.style.display = 'hidden';
-      }
-      function closeit3() {
-        let showing3 = document.getElementById('detailscard3');
-        showing3.style.display = 'none'
+      //   showing3.style.display = 'revert';
+      //   // card1.style.display = 'hidden';
+      // }
+      // function closeit3() {
+      //   let showing3 = document.getElementById('detailscard3');
+      //   showing3.style.display = 'none'
   
-      }
+      // }
   
   
   
